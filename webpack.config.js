@@ -77,7 +77,7 @@ module.exports = (env) => ({
         new HtmlWebpackPlugin({
             inject: false,
             hash: true,
-            title: 'Repo Finder',
+            title: 'Custom app title',
             template: './index.html',
             filename: 'index.html'
         }),
