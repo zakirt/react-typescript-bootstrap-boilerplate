@@ -36,19 +36,19 @@ Unit test files must be placed inside `/spec` directory. The file extensions mus
 
 Use the following commands to run the tests
 
-##### Running all tests once
+#### Running all tests once
 
 ```
 npm test
 ```
 
-##### With coverage
+#### With coverage
 
 ```
 npm run test:coverage
 ```
 
-##### Watch mode
+#### Watch mode
 ```
 npm run test:tdd
 ```
@@ -57,7 +57,7 @@ or
 npm run test:watch
 ```
 
-##### Specify test to run by file name pattern
+#### Specify test to run by file name pattern
 
 ```
 npm test App
