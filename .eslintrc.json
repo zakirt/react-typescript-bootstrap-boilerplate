@@ -1,0 +1,38 @@
+{
+    "extends": ["airbnb"],
+    "parser": "@typescript-eslint/parser",
+    "plugins": ["@typescript-eslint"],
+    "parserOptions": {
+        "jsx": true,
+        "useJSXTextNode": true,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true,
+            "modules": true
+        }
+    },
+    "rules": {
+        "quotes": ["error", "single"],
+        "import/prefer-default-export": "off",
+        "import/extensions": "off",
+        "import/no-unresolved": "off",
+        "no-console": "off",
+        "no-plusplus": "off",
+        "indent": ["error", 4],
+        "comma-dangle": "off",
+        "quote-props": "off",
+        "lines-between-class-members": "off",
+        "react/jsx-indent": [2, 4],
+        "react/jsx-filename-extension": [1, { "extensions": [".ts", ".tsx"] }],
+        "react/jsx-one-expression-per-line": "off",
+        "jsx-a11y/label-has-associated-control": "off",
+        "react/jsx-first-prop-new-line": "off",
+        "react/jsx-indent-props": [2, 4]
+    },
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es6": true,
+        "jest": true
+    }
+}

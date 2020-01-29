@@ -1,0 +1,79 @@
+{
+    "name": "react-typescript-bootstrap-boilerplate",
+    "version": "1.0.0",
+    "description": "Boilerplate for building React apps with TypeScript and Bootstrap.",
+    "main": "main.js",
+    "scripts": {
+        "build:dev": "npx webpack --env.development -w --display-error-details --progress --colors --config webpack.config.js",
+        "build:prod": "npx webpack --env.production --display-error-details --progress --colors --config webpack.config.js",
+        "start": "http-server ./dist -p 9000",
+        "test": "jest",
+        "test:watch": "jest --watch",
+        "test:tdd": "jest --watch",
+        "test:coverage": "jest --coverage --colors"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/zakirt/react-typescript-bootstrap-boilerplate.git"
+    },
+    "keywords": [
+        "react",
+        "boilerplate",
+        "typescript",
+        "bootstrap"
+    ],
+    "author": "Zakir Tariverdiev <zakir.tariverdiev@gmail.com>",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/zakirt/react-typescript-bootstrap-boilerplate/issues"
+    },
+    "homepage": "https://github.com/zakirt/react-typescript-bootstrap-boilerplate#readme",
+    "dependencies": {
+        "bootstrap": "4.3.1",
+        "react": "~16.12.0",
+        "react-bootstrap": "^1.0.0-beta.16",
+        "react-dom": "~16.12.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.8.3",
+        "@babel/preset-env": "^7.8.3",
+        "@babel/preset-typescript": "^7.8.3",
+        "@types/enzyme": "^3.10.4",
+        "@types/enzyme-adapter-react-16": "^1.0.5",
+        "@types/jest": "^24.9.1",
+        "@types/react": "^16.9.19",
+        "@types/react-dom": "^16.9.5",
+        "@types/yup": "^0.26.28",
+        "@typescript-eslint/eslint-plugin": "^2.17.0",
+        "@typescript-eslint/eslint-plugin-tslint": "^2.17.0",
+        "@typescript-eslint/parser": "^2.17.0",
+        "autoprefixer": "^9.7.4",
+        "babel-jest": "^25.1.0",
+        "css-loader": "^3.4.2",
+        "enzyme": "^3.11.0",
+        "enzyme-adapter-react-16": "^1.15.2",
+        "eslint": "^6.1.0",
+        "eslint-config-airbnb": "^18.0.1",
+        "eslint-plugin-import": "^2.20.0",
+        "eslint-plugin-jsx-a11y": "^6.2.3",
+        "eslint-plugin-react": "^7.18.0",
+        "eslint-plugin-react-hooks": "^1.7.0",
+        "html-webpack-plugin": "^3.2.0",
+        "http-server": "^0.12.1",
+        "jest": "^25.1.0",
+        "mini-css-extract-plugin": "^0.9.0",
+        "node-sass": "^4.13.1",
+        "optimize-css-assets-webpack-plugin": "^5.0.3",
+        "postcss-loader": "^3.0.0",
+        "precss": "^4.0.0",
+        "sass-loader": "^8.0.2",
+        "source-map-loader": "^0.2.4",
+        "style-loader": "^1.1.3",
+        "terser-webpack-plugin": "^2.3.2",
+        "ts-loader": "^6.2.1",
+        "typescript": "^3.7.5",
+        "webpack": "^4.41.5",
+        "webpack-cli": "^3.3.10",
+        "webpack-md5-hash": "0.0.6"
+    }
+}
