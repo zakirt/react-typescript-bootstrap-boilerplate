@@ -1,6 +1,6 @@
 # React/TypeScript/Bootstrap boilerplate
 
-Boilerplate for creating React apps with TypeScript and Bootstrap. The project also uses Sass for preprocessing CSS and Webpack to bundle the script.
+A minimalistic boilerplate for creating React apps with TypeScript and Bootstrap. The project also uses Sass for preprocessing CSS and Webpack to bundle the script.
 
 ## Building the app
 
