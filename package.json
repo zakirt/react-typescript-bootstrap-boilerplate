@@ -22,7 +22,6 @@
         "typescript",
         "bootstrap"
     ],
-    "author": "Zakir Tariverdiev <zakir.tariverdiev@gmail.com>",
     "license": "ISC",
     "bugs": {
         "url": "https://github.com/zakirt/react-typescript-bootstrap-boilerplate/issues"
